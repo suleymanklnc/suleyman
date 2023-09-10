@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: blueviolet;
+  flex-wrap: wrap;
+}
+
+/*header*/
+
+.header {
+  position: fixed;
+  z-index: 4000;
+  width: 100%;
+  padding: 2rem;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 a{
+  font-family: sans-serif;
+  font-size: 25px;
+  color: beige;
+  font-weight: 900;
+}
+
+.header h1 a:hover {
+  color: blueviolet;
+}
+
+.menulinks li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header ul li a {
+  color: beige;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.header ul li a:hover {
+  color: blueviolet;
+}
+/* end header*/
+
+/*main*/
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.infocard {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+  margin-top: 1.6rem;
+}
+
+.infocard:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.infocard h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #551a8b;
+  border-bottom: 2px solid #551a8b;
+}
+
+.welcomegif {
+  width: 220px;
+  height: 220px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/welcome.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.infocard p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  color: whitesmoke;
+  padding: 0 0 4rem 0;
+}
+
+.projectscard {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+.projectscard:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.projectscard h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #551a8b;
+  border-bottom: 2px solid #551a8b;
+}
+
+.projectscard p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: whitesmoke;
+  padding: 4rem 0;
+}
+
+.projectscard h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #551a8b;
+}
+
+.projectscard p a {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: beige;
+  border: 2px solid #151515;
+  background-color: #551a8b;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.projectscard p a:hover{
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+}
+
+.wordsempireimg {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/wordsempirehome.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.wordsempireimg2 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/wordsempirehome2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.wordsempireimg3 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/wordsempirehome3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.wordsempireimg4 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/wordsempirehome4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.arunresteimg {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/arunrest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.arunresteimg2 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/arunrest2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.arunresteimg3 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/arunrest3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.arunresteimg4 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/arunrest4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.arunresteimg5 {
+  width: 90%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(images/arunrest5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.wordsempireimg:hover,
+.wordsempireimg2:hover,
+.wordsempireimg3:hover,
+.wordsempireimg4:hover,
+.arunresteimg:hover,
+.arunresteimg2:hover,
+.arunresteimg3:hover,
+.arunresteimg4:hover,
+.arunresteimg5:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.abilitiescard {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+.abilitiescard h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #551a8b;
+  border-bottom: 2px solid #551a8b;
+}
+
+.abilitiescard p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: whitesmoke;
+  padding: 4rem 0;
+}
+
+.abilitiescard:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.contactcard {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+.contactcard:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.contactcard h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #551a8b;
+  border-bottom: 2px solid #551a8b;
+}
+
+.contactcard p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: whitesmoke;
+  padding: 4rem 0;
+}
+
+.contactcard p a {
+  color: whitesmoke;
+}
+
+/*end main*/
+
+/*footer*/
+footer {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+footer h1 {
+  color: beige;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+/*end footer*/
+
+@media screen and (max-width: 950px) {
+  .main {
+    margin-top: 10rem;
+  }
+
+  .infocard {
+    width: 100%;
+  }
+
+  .cvcard {
+    width: 100%;
+  }
+
+  .projectscard {
+    width: 100%;
+  }
+
+  .abilitiescard {
+    width: 100%;
+  }
+
+  .contactcard {
+    width: 100%;
+  }
+}
