@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
 }
 
-.header h1 a{
+.header h1 a {
   font-family: sans-serif;
   font-size: 25px;
   color: beige;
@@ -73,6 +73,7 @@ body {
   border-radius: 60px;
   transition: all 0.5s ease-in-out;
   margin-top: 1.6rem;
+  padding: 20px;
 }
 
 .infocard:hover {
@@ -105,7 +106,6 @@ body {
   font-weight: 900;
   text-align: center;
   color: whitesmoke;
-  padding: 0 0 4rem 0;
 }
 
 .projectscard {
@@ -156,7 +156,7 @@ body {
   border-radius: 10px;
 }
 
-.projectscard p a:hover{
+.projectscard p a:hover {
   transition: all 0.5s ease-in-out;
   background-color: transparent;
 }
@@ -287,6 +287,7 @@ body {
   background-color: transparent;
   border-radius: 60px;
   transition: all 0.5s ease-in-out;
+  margin-top: 3rem;
 }
 
 .abilitiescard h1 {
@@ -374,10 +375,8 @@ footer h1 {
 
   .infocard {
     width: 100%;
-  }
-
-  .cvcard {
-    width: 100%;
+    border-radius: 20px; /* Yuvarlatılmış köşeleri biraz azaltın */
+    padding: 20px; /* Daha az içerik kenarlığı ekleyin */
   }
 
   .projectscard {
@@ -390,5 +389,18 @@ footer h1 {
 
   .contactcard {
     width: 100%;
+  }
+
+  .wordsempireimg,
+  .wordsempireimg2,
+  .wordsempireimg3,
+  .wordsempireimg4,
+  .arunresteimg,
+  .arunresteimg2,
+  .arunresteimg3,
+  .arunresteimg4,
+  .arunresteimg5 {
+    width: 90%;
+    height: 190px;
   }
 }
